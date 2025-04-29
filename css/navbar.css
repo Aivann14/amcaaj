@@ -973,6 +973,10 @@ html {
     line-height: inherit;
     white-space: nowrap;
   }
+
+  .navbar-brand img {
+    border-radius: 8px;
+  }
   
   .navbar-brand:hover, .navbar-brand:focus {
     text-decoration: none;
