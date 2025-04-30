@@ -1,0 +1,23 @@
+.indiv-services {
+    min-height: 100vh !important;
+    padding-top: 36vh;
+    text-align: center;
+    background-image: url(../img/services1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    /* Add these for dark overlay effect */
+    background-color: rgba(18, 33, 76, 0.5); /* Adjust opacity as needed */
+    background-blend-mode: darken;
+}
+
+.indiv-services h1 {
+    font-family: "Montserrat", sans-serif;
+    margin-top: 10px;
+    font-size: 70px;
+    color: #fff;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+  }
