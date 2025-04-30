@@ -34,6 +34,17 @@
 </head>
 
 <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center overflow-hidden">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+            <div class="overlay left-overlay"></div>
+            <div class="overlay right-overlay"></div>
+        </div>
+        <!-- Spinner End -->
+
         <!-- Navbar Start -->
         <div class="container-fluid position-relative nav-bar p-0">
             <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
@@ -48,12 +59,12 @@
                     </button>
                     <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
                         <div class="navbar-nav ml-auto py-0">
-                            <a href="#home" class="nav-item nav-link">Home</a>
+                            <a href="../index.html" class="nav-item nav-link">Home</a>
                             <a href="#about" class="nav-item nav-link">About Us</a>
                             <div class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Services</a>
                                 <div class="dropdown-menu border-0 rounded-0 m-0">
-                                    <a href="#" class="dropdown-item">Engineering & Construction</a>
+                                    <a href="../services/service1.html" class="dropdown-item">Engineering & Construction</a>
                                     <a href="#" class="dropdown-item">Hospitality Industry</a>
                                     <a href="#" class="dropdown-item">Healthycare Services</a>
                                     <a href="#" class="dropdown-item">Consulting and Management</a>
@@ -69,8 +80,9 @@
                             <div class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Apply</a>
                                 <div class="dropdown-menu border-0 rounded-0 m-0">
-                                    <a href="#" class="dropdown-item">QATAR</a>
-                                    <a href="#" class="dropdown-item">KSA</a>
+                                    <a href="https://docs.google.com/forms/d/1j-3eG6-FZ01F0dj_2l77Cd5kIHcILARKrF4wu-7cjDI/edit
+                                    " class="dropdown-item">QATAR</a>
+                                    <a href="https://docs.google.com/forms/d/1Fn8H1eQ9HQMuPf4yuyPNl_b6kyK1FQBqDc3FFc5xfdo/edit" class="dropdown-item">KSA</a>
                                 </div>
                             </div>
                         </div>
@@ -81,12 +93,114 @@
         <!-- Navbar End -->
 
         <div class="parallax-content indiv-services">
-            <div class="container">
+            <div class="container wow fadeIn">
                 <div class="first-content">
                     <h1>Engineering and Construction</h1>
+                    <div class="primary-button">
+                        <a href="#service-content">Learn More</a>
+                    </div>
                 </div>
             </div>
         </div>
+
+        <section class="service-details" id="service-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="content-text wow fadeInLeft">
+                            <h2>Engineering and Construction</h2>
+                            <p>Amcaaj International Recruitment Agency Inc. specializes in providing skilled professionals for the engineering and construction sectors. We connect employers with qualified candidates who possess the necessary expertise and experience to excel in their roles.</p>
+                            <p>Our recruitment process ensures that we identify the best talent available, matching candidates with the specific requirements of our clients. We are committed to delivering exceptional service and building long-term relationships with both employers and job seekers.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="content-image wow fadeInRight">
+                            <img src="../img/services1.jpg" alt="Engineering and Construction" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="carousel-section wow fadeInUp">
+            <div class="carousel-container">
+                <div class="carousel">
+
+                    <div class="slide">
+                        <div class="slide-content">
+                            <h6>We Offer:</h6>
+                            <h1>Civil Engineering</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, animi accusantium velit veniam voluptate dicta sequi. At, hic sed autem porro suscipit corporis dicta aut natus dignissimos illo quisquam nam! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, tempora reiciendis architecto libero ab quidem et ipsam expedita iure voluptatum atque quasi quos, soluta vitae nam ducimus doloremque quaerat dolores?</p>
+                            <a href="#" class="btn">Contact Us</a>
+                        </div>
+                        <div class="slide-image">
+                            <img src="../img/services/civil.jpg">
+                        </div>
+                    </div>
+                    
+                    <div class="slide">
+                        <div class="slide-content">
+                            <h6>We Offer:</h6>
+                            <h1>Mechanical Engineering</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, animi accusantium velit veniam voluptate dicta sequi. At, hic sed autem porro suscipit corporis dicta aut natus dignissimos illo quisquam nam! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, tempora reiciendis architecto libero ab quidem et ipsam expedita iure voluptatum atque quasi quos, soluta vitae nam ducimus doloremque quaerat dolores?</p>
+                            <a href="#" class="btn">Contact Us</a>
+                        </div>
+                        <div class="slide-image">
+                            <img src="../img/services/mechanical.jpg">
+                        </div>
+                    </div>
+
+                    <div class="slide">
+                        <div class="slide-content">
+                            <h6>We Offer:</h6>
+                            <h1>Electrical Engineering</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, animi accusantium velit veniam voluptate dicta sequi. At, hic sed autem porro suscipit corporis dicta aut natus dignissimos illo quisquam nam! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, tempora reiciendis architecto libero ab quidem et ipsam expedita iure voluptatum atque quasi quos, soluta vitae nam ducimus doloremque quaerat dolores?</p>
+                            <a href="#" class="btn">Contact Us</a>
+                        </div>
+                        <div class="slide-image">
+                            <img src="../img/services/electrical.jpg">
+                        </div>
+                    </div>
+
+                    <div class="slide">
+                        <div class="slide-content">
+                            <h6>We Offer:</h6>
+                            <h1>Building Electrician</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, animi accusantium velit veniam voluptate dicta sequi. At, hic sed autem porro suscipit corporis dicta aut natus dignissimos illo quisquam nam! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, tempora reiciendis architecto libero ab quidem et ipsam expedita iure voluptatum atque quasi quos, soluta vitae nam ducimus doloremque quaerat dolores?</p>
+                            <a href="#" class="btn">Contact Us</a>
+                        </div>
+                        <div class="slide-image">
+                            <img src="../img/services/building.jpg">
+                        </div>
+                    </div>
+
+                    <div class="slide">
+                        <div class="slide-content">
+                            <h6>We Offer:</h6>
+                            <h1>Rough Carpenter</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, animi accusantium velit veniam voluptate dicta sequi. At, hic sed autem porro suscipit corporis dicta aut natus dignissimos illo quisquam nam! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, tempora reiciendis architecto libero ab quidem et ipsam expedita iure voluptatum atque quasi quos, soluta vitae nam ducimus doloremque quaerat dolores?</p>
+                            <a href="#" class="btn">Contact Us</a>
+                        </div>
+                        <div class="slide-image">
+                            <img src="../img/services/carpenter.jpg">
+                        </div>
+                    </div>
+
+                </div>
+                
+                <!-- Carousel Navigation -->
+                <div class="carousel-arrow carousel-prev">❮</div>
+                <div class="carousel-arrow carousel-next">❯</div>
+                
+                <div class="carousel-controls wow fadeInUp">
+                    <span class="carousel-dot active" data-index="0"></span>
+                    <span class="carousel-dot" data-index="1"></span>
+                    <span class="carousel-dot" data-index="2"></span>
+                    <span class="carousel-dot" data-index="3"></span>
+                    <span class="carousel-dot" data-index="4"></span>
+                </div>
+            </div>
+        </section>
 
 
         <!-- FOOTER START -->
@@ -166,6 +280,114 @@
             </div>
         </footer>
         <!-- FOOTER END -->
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+    <script src="../js/vendor/bootstrap.min.js"></script>
+    <script src="../js/plugins.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/jquery.js"></script>
+
+    <script src="../js/feather.min.js"></script>
+    <script src="../js/jquery.counterup.min.js"></script>
+    <script src="../js/waypoints.min.js"></script>
+    <script src="../js/slick.min.js"></script>
+    <script src="../js/custom.js"></script>
+
+    <script src="../js/jquery.magnific-popup.min.js"></script>
+
+    <script src="../lib/wow/wow.min.js"></script>
+    <script src="../lib/easing/easing.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="../js/main.js"></script>
+
+    <script>
+        // Carousel Functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const carousel = document.querySelector('.carousel');
+            const slides = document.querySelectorAll('.slide');
+            const dots = document.querySelectorAll('.carousel-dot');
+            const prevBtn = document.querySelector('.carousel-prev');
+            const nextBtn = document.querySelector('.carousel-next');
+            
+            let currentIndex = 0;
+            const slideCount = slides.length;
+            
+            // Set up automatic sliding
+            let slideInterval = setInterval(nextSlide, 8000);
+            
+            function resetInterval() {
+                clearInterval(slideInterval);
+                slideInterval = setInterval(nextSlide, 8000);
+            }
+            
+            function nextSlide() {
+                currentIndex = (currentIndex + 1) % slideCount;
+                updateCarousel();
+            }
+            
+            function prevSlide() {
+                currentIndex = (currentIndex - 1 + slideCount) % slideCount;
+                updateCarousel();
+            }
+            
+            function goToSlide(index) {
+                currentIndex = index;
+                updateCarousel();
+            }
+            
+            function updateCarousel() {
+                carousel.style.transform = `translateX(-${currentIndex * 100}%)`;
+                
+                // Update dots
+                dots.forEach((dot, index) => {
+                    if (index === currentIndex) {
+                        dot.classList.add('active');
+                    } else {
+                        dot.classList.remove('active');
+                    }
+                });
+                
+                resetInterval();
+            }
+            
+            // Event listeners
+            prevBtn.addEventListener('click', prevSlide);
+            nextBtn.addEventListener('click', nextSlide);
+            
+            dots.forEach((dot) => {
+                dot.addEventListener('click', function() {
+                    const slideIndex = parseInt(this.getAttribute('data-index'));
+                    goToSlide(slideIndex);
+                });
+            });
+            
+            // Touch events for mobile
+            let touchStartX = 0;
+            let touchEndX = 0;
+            
+            carousel.addEventListener('touchstart', (e) => {
+                touchStartX = e.changedTouches[0].screenX;
+            });
+            
+            carousel.addEventListener('touchend', (e) => {
+                touchEndX = e.changedTouches[0].screenX;
+                handleSwipe();
+            });
+            
+            function handleSwipe() {
+                const swipeThreshold = 50;
+                if (touchEndX < touchStartX - swipeThreshold) {
+                    nextSlide(); // Swipe left
+                } else if (touchEndX > touchStartX + swipeThreshold) {
+                    prevSlide(); // Swipe right
+                }
+            }
+        });
+    </script>
+
 </body>
 
 </html>

@@ -22,6 +22,10 @@
   letter-spacing: 0.5px;
 }
 
+.primary-button a:hover {
+background-color: var(--deep-primary);
+}
+
 /* fixed-side-navbar */
 .fixed-side-navbar {
     position: fixed;
@@ -1556,7 +1560,8 @@ textarea.form-control {
 }
 
 .social-link:hover {
-  background-color: var(--primary);
+  background-color: var(--secondary-color);
+  color: #fff;
   transform: translateY(-3px);
 }
 
